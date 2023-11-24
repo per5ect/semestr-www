@@ -1,0 +1,74 @@
+.footer {
+  height: 90px;
+  margin-top: 122px;
+  border-top: 1px solid var(--color-footer-grey);
+}
+
+.footer-logo-text {
+  z-index: 1;
+}
+
+.footer__container {
+  height: 100%;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-copyright {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  color: var(--color-footer-light-grey);
+}
+
+/* ///////////////////////// */
+
+/* laptop */
+
+@media (max-width: 1024px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-copyright {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    color: var(--color-footer-light-grey);
+  }
+}
+
+/* tablet */
+
+@media (max-width: 768px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-copyright {
+    font-size: 12px;
+  }
+}
+
+/* stredni mobil */
+
+@media (max-width: 375px) {
+  .footer-items {
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+  }
+
+  .footer {
+    margin-top: 50px;
+  }
+  .footer-copyright {
+    font-size: 12px;
+  }
+}
