@@ -1,0 +1,174 @@
+.select-lang .login-lang {
+  font-size: 14px;
+}
+.login-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-items {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: var(--color-yellow); */
+  background-image: url(../img/connect2.jpg);
+}
+.login-welcome {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--color-black);
+}
+
+.login-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.login-welcome span {
+  color: var(--color-yellow);
+}
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.user-name,
+.password {
+  height: 61px;
+  width: 453px;
+  background-color: var(--color-white);
+  border-radius: 40px;
+}
+
+.user-name:focus,
+.password:focus {
+  border: 2px solid var(--color-black);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0);
+}
+input {
+  padding-left: 25px;
+}
+
+.reset-password {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--color-white);
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 25px;
+  transition: var(--animation);
+}
+
+.reset-password:hover {
+  color: #444444;
+  transition: var(--animation);
+}
+
+.buton-login {
+  width: 453px;
+  height: 54px;
+  background-color: var(--color-black);
+  font-size: 18px;
+  color: var(--color-white);
+  text-transform: uppercase;
+  border-radius: 40px;
+  transition: var(--animation);
+}
+
+.buton-login:hover {
+  background-color: #444444;
+  transition: var(--animation);
+}
+
+/* //////////////////////////////// */
+
+/* tablet */
+
+@media (max-width: 768px) {
+  .login-items {
+    height: 387px;
+  }
+
+  .select-lang .login-lang {
+    font-size: 20px;
+  }
+}
+
+/* big mobil */
+
+@media (max-width: 425px) {
+  .user-name,
+  .password {
+    width: 323px;
+  }
+
+  .buton-login {
+    width: 323px;
+  }
+
+  .reset-log {
+    margin-left: 28px;
+  }
+
+  .sub-reset {
+    width: 314px;
+  }
+}
+
+/* stredni mobil */
+
+@media (max-width: 375px) {
+  .user-name,
+  .password {
+    width: 282px;
+  }
+
+  .buton-login {
+    width: 282px;
+  }
+
+  .reset-log {
+    margin-left: 28px;
+  }
+
+  .sub-reset {
+    width: 263px;
+  }
+}
+
+/* small mobil */
+
+@media (max-width: 320px) {
+  .user-name,
+  .password {
+    width: 245px;
+  }
+
+  .buton-login {
+    width: 245px;
+  }
+
+  .reset-log {
+    margin-left: 10px;
+  }
+
+  .sub-reset {
+    width: 263px;
+  }
+}
