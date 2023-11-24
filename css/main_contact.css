@@ -1,0 +1,136 @@
+.contact-main__container {
+  margin-top: 115px;
+}
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  background-image: url(../img/connect2.jpg);
+}
+
+.input-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 87px;
+}
+.sub-contact-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  color: var(--color-black);
+  margin-bottom: 20px;
+}
+.contactus-h {
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 69px;
+  color: var(--color-black);
+  margin-bottom: 54px;
+}
+.contact-input {
+  display: flex;
+}
+
+input {
+  padding-left: 42px;
+}
+.input-em {
+  width: 305px;
+  height: 61px;
+  background-color: var(--color-white);
+}
+.input-button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  width: 165px;
+  height: 61px;
+}
+
+/* /////////////// */
+
+/* laptop */
+
+@media (max-width: 768px) {
+  .contact-main__container {
+    margin-top: 65px;
+    max-width: 100%;
+  }
+  .main-contact {
+    background-size: 1289px;
+    min-height: 255px;
+  }
+
+  .input-text {
+    margin-top: 48px;
+  }
+
+  .sub-contact-text {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .contactus-h {
+    font-size: 70px;
+    margin-bottom: 15px;
+  }
+
+  .input-em {
+    width: 300px;
+    height: 41px;
+  }
+
+  input {
+    padding-left: 28px;
+    font-size: 12px;
+  }
+
+  .input-button {
+    width: 165px;
+    height: 41px;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-main__container {
+    margin-top: 50px;
+    max-width: 100%;
+  }
+  .main-contact {
+    background-size: 1191px;
+    min-height: 264px;
+  }
+
+  .input-text {
+    margin-top: 48px;
+  }
+
+  .sub-contact-text {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .contactus-h {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+
+  .input-em {
+    width: 195px;
+    height: 41px;
+  }
+
+  input {
+    padding-left: 14px;
+    font-size: 12px;
+  }
+
+  .input-button {
+    width: 106px;
+    height: 41px;
+    font-size: 14px;
+  }
+}
