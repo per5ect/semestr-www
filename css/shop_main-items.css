@@ -1,0 +1,246 @@
+.shop-page-items-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  margin-top: 20px;
+}
+.main-search {
+  display: none;
+}
+
+.categ {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
+
+.plugins-itms {
+  display: flex;
+  flex-direction: column;
+}
+.plugins {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  color: var(--color-white);
+  margin-bottom: 70px;
+}
+.plugins-cards {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+.plugins-c {
+  width: 350px;
+  height: 562px;
+}
+.plugin-img {
+  height: 329px;
+  background-image: url(../img/serum.jfif);
+  background-size: 340px;
+}
+.plugin-texts {
+  height: 233px;
+  border: 1px solid var(--color-yellow);
+  padding: 17px 1px 1px 30px;
+}
+.name {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: 23px;
+}
+.descr-plugins {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--color-grey);
+  margin-bottom: 30px;
+  width: 291px;
+}
+.price-buy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 100px;
+}
+.price {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.price span {
+  color: var(--color-yellow);
+}
+.buy-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+.buy {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--color-white);
+  transition: var(--animation);
+}
+
+.buy:hover {
+  color: var(--color-yellow);
+  transition: var(--animation);
+}
+
+/* //////////////// */
+
+/* laptop */
+
+@media (max-width: 1024px) {
+  .plugin-img {
+    height: 280px;
+    background-size: 300px;
+  }
+  .plugins-c {
+    width: 290px;
+  }
+
+  .price-buy {
+    column-gap: 50px;
+  }
+
+  .descr-plugins {
+    width: 240px;
+    margin-bottom: 10px;
+  }
+}
+
+/* tablet */
+
+@media (max-width: 768px) {
+  .plugin-img {
+    height: 280px;
+    background-size: 340px;
+    background-position: -57px -3px;
+  }
+  .plugins-c {
+    width: 218px;
+  }
+
+  .price-buy {
+    column-gap: 17px;
+  }
+
+  .descr-plugins {
+    display: none;
+  }
+
+  .plugins-cards {
+    column-gap: 15px;
+  }
+
+  .plugin-texts {
+    padding: 10px 0px 0px 10px;
+    height: 100px;
+  }
+
+  .name {
+    margin-bottom: 12px;
+  }
+
+  .plugins {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+
+  .plugins-c {
+    height: 388px;
+  }
+}
+
+/* large mobil */
+@media (max-width: 425px) {
+  .plugins {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .main-search {
+    display: flex;
+    width: 355px;
+  }
+  .plugins-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .shop-page-items-main {
+    row-gap: 17px;
+    margin-top: 0px;
+  }
+
+  .plugins-c {
+    width: 340px;
+    height: 440px;
+  }
+
+  .price-buy {
+    column-gap: 130px;
+  }
+
+  .plugin-img {
+    background-size: 416px;
+    background-position: -43px -37px;
+  }
+}
+
+/* stredni mobil */
+
+@media (max-width: 375px) {
+  .plugins-c {
+    width: 304px;
+    height: 440px;
+  }
+
+  .price-buy {
+    column-gap: 90px;
+  }
+
+  .plugin-img {
+    background-position: -56px -37px;
+  }
+
+  .main-search {
+    width: 306px;
+  }
+}
+
+/* small mobil */
+
+@media (max-width: 320px) {
+  .plugins-c {
+    width: 266px;
+    height: 410px;
+  }
+
+  .price-buy {
+    column-gap: 60px;
+  }
+
+  .plugin-img {
+    background-position: -74px -37px;
+  }
+
+  .main-search {
+    width: 273px;
+  }
+}
