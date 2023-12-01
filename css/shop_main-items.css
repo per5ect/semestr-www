@@ -44,6 +44,52 @@
   background-image: url(../img/serum.jfif);
   background-size: 340px;
 }
+
+.c2-img {
+  background-image: url(../img/art-shop.jpg);
+}
+
+.c3-img {
+  background-image: url(../img/rc20.jpg);
+  background-size: 340px;
+}
+
+.s1-img {
+  background-image: url(../img/hiphop.jpg);
+  background-size: 370px;
+  background-position: -4px -20px;
+}
+
+.s2-img {
+  background-image: url(../img/edm.jpg);
+  background-size: 370px;
+  background-position: -4px -20px;
+}
+
+.s3-img {
+  background-image: url(../img/lofi.jpg);
+  background-size: 370px;
+  background-position: -4px -20px;
+}
+
+.eq1-img {
+  background-image: url(../img/dj1.webp);
+  background-size: 344px;
+  background-position: 3px 3px;
+}
+
+.eq2-img {
+  background-image: url(../img/dj2.jpg);
+  background-size: 478px;
+  background-position: -61px -69px;
+}
+
+.eq3-img {
+  background-image: url(../img/dj3.jpg);
+  background-size: 392px;
+  background-position: -21px 14px;
+}
+
 .plugin-texts {
   height: 233px;
   border: 1px solid var(--color-yellow);
@@ -56,6 +102,7 @@
   color: var(--color-white);
   margin-bottom: 23px;
 }
+
 .descr-plugins {
   font-size: 16px;
   font-style: normal;
@@ -65,6 +112,7 @@
   margin-bottom: 30px;
   width: 291px;
 }
+
 .price-buy {
   display: flex;
   flex-direction: row;
@@ -110,6 +158,20 @@
     height: 280px;
     background-size: 300px;
   }
+
+  .eq1-img {
+    background-size: 280px;
+  }
+
+  .eq2-img {
+    background-size: 413px;
+  }
+
+  .eq3-img {
+    background-size: 353px;
+    background-position: -30px 3px;
+  }
+
   .plugins-c {
     width: 290px;
   }
@@ -122,6 +184,18 @@
     width: 240px;
     margin-bottom: 10px;
   }
+
+  .deq-3 {
+    width: 254px;
+  }
+
+  .n1 {
+    margin-bottom: 24px;
+  }
+
+  .dp1 {
+    margin-bottom: 35px;
+  }
 }
 
 /* tablet */
@@ -132,6 +206,47 @@
     background-size: 340px;
     background-position: -57px -3px;
   }
+
+  .c2-img {
+    background-size: 233px;
+    background-position: -5px 36px;
+  }
+
+  .c3-img {
+    background-size: 233px;
+    background-position: -11px 26px;
+  }
+
+  .s1-img {
+    background-size: 268px;
+    background-position: -17px 7px;
+  }
+
+  .s2-img {
+    background-size: 268px;
+    background-position: -17px 7px;
+  }
+
+  .s3-img {
+    background-size: 268px;
+    background-position: -17px 7px;
+  }
+
+  .eq1-img {
+    background-size: 209px;
+    background-position: 7px 34px;
+  }
+
+  .eq2-img {
+    background-size: 271px;
+    background-position: -25px 9px;
+  }
+
+  .eq3-img {
+    background-size: 335px;
+    background-position: -62px 10px;
+  }
+
   .plugins-c {
     width: 218px;
   }
@@ -201,6 +316,46 @@
     background-size: 416px;
     background-position: -43px -37px;
   }
+
+  .c2-img {
+    background-size: 329px;
+    background-position: 4px -14px;
+  }
+
+  .c3-img {
+    background-size: 299px;
+    background-position: 13px -11px;
+  }
+
+  .s1-img {
+    background-size: 341px;
+    background-position: 0px -35px;
+  }
+
+  .s2-img {
+    background-size: 341px;
+    background-position: 0px -35px;
+  }
+
+  .s3-img {
+    background-size: 341px;
+    background-position: 0px -35px;
+  }
+
+  .eq1-img {
+    background-size: 330px;
+    background-position: 0px -15px;
+  }
+
+  .eq2-img {
+    background-size: 330px;
+    background-position: 0px -15px;
+  }
+
+  .eq3-img {
+    background-size: 346px;
+    background-position: -4px 8px;
+  }
 }
 
 /* stredni mobil */
@@ -217,6 +372,45 @@
 
   .plugin-img {
     background-position: -56px -37px;
+  }
+
+  .c2-img {
+    background-size: 307px;
+    background-position: -1px 3px;
+  }
+
+  .c3-img {
+    background-position: -2px -13px;
+  }
+
+  .s1-img {
+    background-size: 320px;
+    background-position: -8px -20px;
+  }
+
+  .s2-img {
+    background-size: 320px;
+    background-position: -8px -20px;
+  }
+
+  .s3-img {
+    background-size: 320px;
+    background-position: -8px -20px;
+  }
+
+  .eq1-img {
+    background-size: 287px;
+    background-position: 8px 2px;
+  }
+
+  .eq2-img {
+    background-size: 287px;
+    background-position: 8px 2px;
+  }
+
+  .eq3-img {
+    background-size: 353px;
+    background-position: -27px 6px;
   }
 
   .main-search {
@@ -238,6 +432,42 @@
 
   .plugin-img {
     background-position: -74px -37px;
+  }
+
+  .c2-img {
+    background-size: 268px;
+    background-position: -1px 20px;
+  }
+
+  .c3-img {
+    background-position: -24px -13px;
+  }
+
+  .s1-img {
+    background-position: -24px -20px;
+  }
+
+  .s2-img {
+    background-position: -24px -20px;
+  }
+
+  .s3-img {
+    background-position: -24px -20px;
+  }
+
+  .eq1-img {
+    background-size: 259px;
+    background-position: 3px 20px;
+  }
+
+  .eq2-img {
+    background-size: 259px;
+    background-position: 3px 20px;
+  }
+
+  .eq3-img {
+    background-size: 389px;
+    background-position: -66px -8px;
   }
 
   .main-search {
